@@ -50,7 +50,7 @@ public class Main {
 
     }
 
-
+    /**
     public static String makepass(String input){
 
         char[] oldPass = input.toCharArray();
@@ -102,5 +102,5 @@ public class Main {
         }
 
     }
-
+    */
 }
