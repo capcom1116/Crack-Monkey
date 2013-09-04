@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CrackMonkey:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CrackMonkey_jar</output-path>
+    <root id="archive" name="General.jar">
+      <element id="module-output" name="General" />
+      <element id="module-output" name="BigMath" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/zip4j_1.3.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
