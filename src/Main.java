@@ -6,6 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
+import java.math.BigInteger;
 import java.util.Scanner;
 import java.io.*;
 
@@ -37,70 +38,20 @@ public class Main {
         boolean opened = false;
 
         String pass = "";
+        BigInteger count = BigInteger.ZERO;
 
+        while(!opened){
 
-//        while(!opened){
-//
-//            pass = makepass(pass);
-//
-//        }
+            pass = makepass(pass);
 
-
-
-
-    }
-
-    /**
-    public static String makepass(String input){
-
-        char[] oldPass = input.toCharArray();
-
-
-
-        return new String(incrementChar(oldPass));
-    }
-
-    public static char[] incrementChar(char[] input){
-
-        outerloop:
-        while(true){
-
-            for(int n=0; n<input.length; n++){
-                if(input[n] != 127){
-                    break outerloop;
-                }
-            }
-
-            char[] newArr = new char[input.length+1];
-
-            for(int n =0; n<newArr.length;n++){
-                newArr[n] = 0;
-            }
-
-            return newArr;
         }
 
-        boolean carry = false;
 
-        newswitch:
-        for(int n=input.length-1; n>0; n--){
-            if(input[n]!=127&&carry==false){
-                input[n]++;
-                break newswitch;
-            }else if({
-                input[n]=0;
-                carry = true;
-            }
 
-            if(carry){
-                if(input[n-1]==127){
-                    input[n-1]=0;
-                }else{
-                    input[n-1]++;
-                }
-            }
-        }
+
+
 
     }
-    */
+
+
 }
